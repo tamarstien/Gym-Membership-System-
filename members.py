@@ -1,6 +1,7 @@
 class Members :
 
-    def __init__(self,name,age):
+    def __init__(self,id,name,age):
+        self.id=id,
         self.name=name,
         self.age=age,
-        self.course_name=[]
+        self.courses=[]
